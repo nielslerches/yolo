@@ -4,4 +4,4 @@ import sys
 
 sys.dont_write_bytecode = True
 
-shutil.rmtree(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+shutil.rmtree(os.path.dirname(os.path.abspath(__file__)))
